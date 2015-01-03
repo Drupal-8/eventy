@@ -23,7 +23,7 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  body:
+  event_description:
     type: text_textarea_with_summary
     weight: 1
     settings:
