@@ -1,0 +1,9 @@
+name: Eventy
+type: module
+description: 'Create events and meetups announcements easily.'
+package: Event
+version: VERSION
+core: 8.x
+configure: eventy.overview_types
+dependencies:
+  - node

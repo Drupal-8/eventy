@@ -1,0 +1,5 @@
+eventy.add:
+  title: Add Event
+  description: 'This is a demo link'
+  parent: node.add_page
+  route_name: eventy.add
