@@ -6,13 +6,13 @@ dependencies:
     - node.type.event
   module:
     - text
-id: node.event.body
-field_name: description
+id: node.event.event_description
+field_name: event_description
 entity_type: node
 bundle: event
-label: Description
+label: Event Description
 description: ''
-required: false
+required: true
 translatable: true
 default_value: {  }
 default_value_callback: ''
