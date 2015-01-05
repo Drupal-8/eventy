@@ -2,21 +2,21 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.event_description
+    - field.storage.node.things_to_bring
     - node.type.event
   module:
     - text
-id: node.event.event_description
-field_name: event_description
+id: node.event.things_to_bring
+field_name: things_to_bring
 entity_type: node
 bundle: event
-label: Event description
+label: Things to bring
 description: ''
-required: true
+required: false
 translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
   display_summary: true
 third_party_settings: {  }
-field_type: text_with_summary
+field_type: text

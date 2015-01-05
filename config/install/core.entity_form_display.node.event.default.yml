@@ -3,6 +3,7 @@ status: true
 dependencies:
   config:
     - field.field.node.event.event_description
+    - field.field.node.event.things_to_bring
     - node.type.event
   module:
     - comment
@@ -32,6 +33,13 @@ content:
       summary_rows: 3
       placeholder: ''
     third_party_settings: {  }
+  things_to_bring:
+   type: string_textfield
+   weight: 3
+   settings:
+    size: 60
+    placeholder: ''
+  third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
     weight: 5

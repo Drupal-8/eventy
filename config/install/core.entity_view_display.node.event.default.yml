@@ -3,6 +3,7 @@ status: true
 dependencies:
   config:
     - field.field.node.event.event_description
+    - field.field.node.event.things_to_bring
     - node.type.event
   module:
     - comment
@@ -29,7 +30,13 @@ content:
     weight: 0
     settings: {  }
     third_party_settings: {  }
-    label: hidden
+    label: above
+  things_to_bring:
+    type: text_plain
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    label: above
   field_tags:
     type: taxonomy_term_reference_link
     weight: 10

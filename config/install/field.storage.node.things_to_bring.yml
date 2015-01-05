@@ -4,10 +4,10 @@ dependencies:
   module:
     - node
     - text
-id: node.event_description
-field_name: event_description
+id: node.things_to_bring
+field_name: things_to_bring
 entity_type: node
-type: text_with_summary
+type: text
 settings: {  }
 module: text
 locked: false
